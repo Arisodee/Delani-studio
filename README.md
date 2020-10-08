@@ -4,7 +4,7 @@ This is a project that showcases what Delani Studio is all about. It also allows
  Ariso Okanga
 
 ## Project Image
-![Delani-Studio](images/Delani_Studio.jpg)
+![Delani-Studio](delani/images/Delani_Studio.jpg)
 
 ## Setup Instructions
 - run `git clone https://github.com/Arisodee/Delani-studio.git`
