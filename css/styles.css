@@ -1,54 +1,100 @@
+.hero-container{
+    background-image: url(../images/first_image.jpg);
+    height: 657px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-content{
+    padding-top:183px;
+}
+
+.call-to-action {
+    padding-top: 161px;
+}
+.portfolio-container{
+    width: 82%;
+    margin: auto;
+}
+
+.portfolio-card{
+    margin-bottom: 20px;
+    position: relative;
+}
+
+
+.portfolio-card-image{
+    width: 100%;
+}
+
+.portfolio-card-content{
+    display: none;
+    
+    color: #ffffff;
+    position: absolute;
+    top: 1px;
+    left: 50px;
+}
+.test-paragraph{
+    font-size: 14px;
+}
+
+
 .container {
     position: relative;
     text-align: center;
     color: white;
-  }
-.footsteps {
-    position: absolute;
-    top: 52%;
-    left: 50%;
-    transform: translate(-52%, -50%);
-  }
-  #footsteps{
-      margin-top: 20px;
-      width: 100%;
-      height: 100%;
-      margin-bottom: 20px;
-  }
-  .footsteps{
-      font-size: 32px;
-      /* font-weight: bold; */
-  }
-  #amazing{
-      font-size: 10px;
-  }
-  .mouseclick{
-    position: absolute;
-    top: 92%;
-    left: 50%;
-    transform: translate(-92%, -50%);
-  }
-  .aboutus{
-      text-align: center;
-      font-size: 14px;
-      color: black;
-  }
-  .services{
+}
+#amazing{
+    font-size: 10px;
+}
+  
+.aboutus{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 24px;
+    color: black;
+    margin-bottom: 40px;
+}
+.services{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
-  #services{
+}
+#services{
     margin-top: 20px;
     width: 100%;
     height: 100%;
     margin-bottom: 20px;
-  }
-  h1{
-      font-size:18px; 
-      font-weight: bold;  
-  }
-  p{
-      font-size: 9px;
-  }
+}
+h3{
+    font-size:38px; 
+    font-weight: bold;  
+    padding-top: 37px;
+}
+p{
+    font-size: 15px;
+}
+.portfolio-details{
+    margin:40px 10px;
+    padding: 10px 20px;
+    border: solid 5px whitesmoke;
+    font-weight: bold;
+    font-size: 30px;
+}
+.services-container{
+    background-image: url(../images/second_image.jpg);
+    height: 334px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+}
+.services-content{
+    padding-top: 100px;
+}
+#portfolio{
+    color: black;
+}
