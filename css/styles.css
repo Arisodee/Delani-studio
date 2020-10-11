@@ -11,7 +11,7 @@
 }
 
 .call-to-action {
-    padding-top: 161px;
+    padding-top: 168px;
 }
 .portfolio-container{
     width: 82%;
@@ -63,16 +63,11 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
-#services{
-    margin-top: 20px;
-    width: 100%;
-    height: 100%;
-    margin-bottom: 20px;
-}
-h3{
-    font-size:38px; 
+h4{
+    font-size:24px; 
     font-weight: bold;  
     padding-top: 37px;
+    text-align: center;
 }
 p{
     font-size: 15px;
@@ -93,8 +88,33 @@ p{
     margin-bottom: 40px;
 }
 .services-content{
-    padding-top: 100px;
+    padding-top: 70px;
+}
+.what-we-do-container{
+    color: black;
+}
+.portfolio-card{
+    margin-bottom: 20px;
+    position: relative;
+}
+.we-do-content{
+    display: none;
+}
+.contact-us-content{
+    padding-top: ;
+}
+.what-we-do-container{
+    width: 82%;
+    margin-left: 210px;
+    margin-top: 40px;
+}
+.we-do-image{
+    width: 70px;
+    height: 70px;
+}
+#what-we-do{
+    color: black;
 }
 #portfolio{
-    color: black;
+    color:black;
 }
