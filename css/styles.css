@@ -33,11 +33,10 @@ body{
 
 .portfolio-card-content{
     display: none;
-    
     color: #ffffff;
     position: absolute;
     top: 1px;
-    left: 50px;
+    left: 30px;
 }
 .test-paragraph{
     font-size: 14px;
@@ -102,16 +101,18 @@ p{
     padding-bottom: 50px;
 }
 .what-we-do-container{
-    width: 82%;
-    margin-left: 210px;
+    width: 100%;
     margin-top: 40px;
 }
 .we-do-image{
     width: 70px;
     height: 70px;
+    max-width: 100%;
 }
 #what-we-do{
     color: black;
+    margin-bottom: 20px;
+    position: relative;
 }
 #portfolio{
     color:black;
@@ -133,14 +134,14 @@ p{
     left: 50%;
     transform: translate(-50%);
 }
-.form-ctrl input {
+.form-cont input {
     width: 49%;
     background: transparent;
     color: white;
     border-color: white;
     border-width: 1px;
 }
-.form-ctrl textarea {
+.form-cont textarea {
     margin-top: 10px;
     width: 98%;
     background: transparent;
@@ -165,4 +166,18 @@ p{
 }
 .footer{
     margin-top: 30px;
+}
+@media screen and (max-width:450px) {
+    .form-cont input {
+        width: 100%;
+        margin-top: 10px;
+    }
+    body {
+        overflow-x: hidden;
+    }
+}
+@media screen and (max-width:1024px) {
+    * {
+        font-size: calc(1vw + 1vh + .5vmin);
+    }
 }
