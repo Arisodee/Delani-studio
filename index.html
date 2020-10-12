@@ -144,20 +144,18 @@
             <div class="container">
                 <div class="contact-us-content">
                     <h4>CONTACT US</h4>
-
-                    <textarea class="form-control" rows="5"></textarea>
+                    <form action="" class="form-control">
+                          <!-- <label for="exampleInputName2">Name</label> -->
+                          <input type="text" class="form-control" id="fullnames" placeholder="Jane Doe">
+                          <!-- <label for="exampleInputEmail2">Email</label> -->
+                          <input type="email" class="form-control" id="email" placeholder="jane.doe@example.com">
+                        <br>
+                        <textarea class="form-control" rows="5" placeholder="Your Message here"></textarea>
+                        <button type="submit" class="btn btn-primary" onclick="replyToCustomer()">Submit</button>
+                    </form>
                 </div>
-            </div>
-        </div>
-        <!-- <form>
-            <input type="text" id="fullnames" placeholder="Name" />
-            <input type="email" id="email" placeholder="Email addres" />
-
-            <button type="button" onclick="replyToCustomer()">Submit</button>
-        </form> -->
-
-        </div>
-       
+            </div> 
+        </div>       
         <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
         <script src = "js/scripts.js"></script>
     </body>
