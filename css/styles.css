@@ -102,8 +102,7 @@ p{
     padding-bottom: 50px;
 }
 .what-we-do-container{
-    width: 82%;
-    margin-left: 210px;
+    width: 100%;
     margin-top: 40px;
 }
 .we-do-image{
@@ -112,6 +111,8 @@ p{
 }
 #what-we-do{
     color: black;
+    margin-bottom: 20px;
+    position: relative;
 }
 #portfolio{
     color:black;
@@ -133,14 +134,14 @@ p{
     left: 50%;
     transform: translate(-50%);
 }
-.form-ctrl input {
+.form-cont input {
     width: 49%;
     background: transparent;
     color: white;
     border-color: white;
     border-width: 1px;
 }
-.form-ctrl textarea {
+.form-cont textarea {
     margin-top: 10px;
     width: 98%;
     background: transparent;
@@ -165,4 +166,18 @@ p{
 }
 .footer{
     margin-top: 30px;
+}
+@media screen and (max-width:450px) {
+    .form-cont input {
+        width: 100%;
+        margin-top: 10px;
+    }
+    body {
+        overflow-x: hidden;
+    }
+}
+@media screen and (max-width:1024px) {
+    * {
+        font-size: calc(1vw + 1vh + .5vmin);
+    }
 }
