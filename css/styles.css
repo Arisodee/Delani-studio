@@ -1,3 +1,6 @@
+body{
+    font-family: 'Peddana', cursive;
+}
 .hero-container{
     background-image: url(../images/first_image.jpg);
     height: 657px;
@@ -64,7 +67,7 @@ h4{
     text-align: center;
 }
 p{
-    font-size: 15px;
+    font-size: 18px;
 }
 .portfolio-details{
     margin:40px 10px;
