@@ -1,5 +1,5 @@
 body{
-    font-family: 'Peddana', cursive;
+    font-family: 'Peddana', Georgia, Times , cursive;
 }
 .hero-container{
     background-image: url(../images/first_image.jpg);
