@@ -27,5 +27,5 @@ function replyToCustomer(){
         return
     }
 
-    alert(nameInput.value +" we have received your message. Thank you for reaching out to us")
+    alert("Hi " + nameInput.value +" we have received your message. Thank you for reaching out to us")
 }
