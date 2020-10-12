@@ -95,7 +95,8 @@ p{
     display: none;
 }
 .contact-us-content{
-    padding-top: ;
+    padding-top: 10px;
+    padding-bottom: 50px;
 }
 .what-we-do-container{
     width: 82%;
@@ -114,11 +115,12 @@ p{
 }
 .contact-us-container{
     background-image: url(../images/third_image.jpg);
-    height: 334px;
+    height: 390px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 40px;
+    width:100%;
 }
 .form-ctrl {
     text-align: center;
@@ -127,4 +129,27 @@ p{
     max-width: 100%;
     left: 50%;
     transform: translate(-50%);
+}
+.form-ctrl input {
+    width: 49%;
+    background: transparent;
+    color: white;
+}
+.form-ctrl textarea {
+    margin-top: 10px;
+    width: 98%;
+    background: transparent;
+    color: white;
+}
+.btn{
+    background: transparent;
+    color: white;
+    border-color:gray;
+}
+.btn-primary :hover{
+    background-color:white;
+    color: black;
+}
+::placeholder{
+    color: white;
 }
