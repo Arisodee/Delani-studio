@@ -157,3 +157,6 @@ p{
 ::placeholder{
     color: white;
 }
+.socialmedia img:hover {
+    background:black;
+}
