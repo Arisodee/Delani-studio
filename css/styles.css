@@ -57,12 +57,6 @@
     color: black;
     margin-bottom: 40px;
 }
-.services{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 h4{
     font-size:24px; 
     font-weight: bold;  
@@ -117,4 +111,20 @@ p{
 }
 #portfolio{
     color:black;
+}
+.contact-us-container{
+    background-image: url(../images/third_image.jpg);
+    height: 334px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+}
+.form-ctrl {
+    text-align: center;
+    position: relative;
+    width: 700px;
+    max-width: 100%;
+    left: 50%;
+    transform: translate(-50%);
 }
